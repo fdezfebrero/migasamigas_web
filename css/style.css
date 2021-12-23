@@ -1,0 +1,302 @@
+/**
+* Template Name: Minimal
+* Template URL: https://templatemag.com/minimal-bootstrap-template/
+* Author: TemplateMag.com
+* License: https://templatemag.com/license/
+*/
+
+body {
+    background-color: #f2f2f2;
+    font-family: 'EB Garamond', serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+
+/* Titles */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    color: #333;
+}
+
+
+/* Paragraph & Typographic */
+
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.centered {
+    text-align: center;
+}
+
+
+/* Links */
+
+a {
+    color: white;
+    word-wrap: break-word;
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+/* ==========================================================================
+   Wrap Sections
+   ========================================================================== */
+
+#headerwrap {
+    background: url(../img/05.jpg) no-repeat center top;
+    margin-top: -10px;
+    padding-top: 20px;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 700px;
+    width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#headerwrap h1 {
+    margin-top: 150px;
+    color: darkgoldenrod;
+    font-size: 100px;
+    font-weight: 700;
+}
+
+#headerwrap h3 {
+    color: darkgoldenrod;
+    font-size: 70px;
+    font-weight: 300;
+    font-family: 'EB Garamond', serif;
+    font-style: oblique;
+}
+
+#headerwrap .logo {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+
+/* Footer Wrap */
+
+#f {
+    background: linear-gradient(to bottom, white 0%, white 50%, black 50%, black 100%);
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center
+}
+
+#f h3 {
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+#f i {
+    font-size: 8px;
+    color: #fff;
+    padding: 3px;
+}
+
+#f p {
+    font-size: 20px;
+    color: black;
+}
+
+
+/* Copyrights */
+
+#copyrights {
+    background: black;
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+}
+
+#copyrights a {
+    color: #f0ad4e;
+}
+
+#copyrights p {
+    margin-bottom: 5px;
+}
+
+.credits {
+    color: #999;
+}
+
+.card-texto {
+    background-color: whitesmoke;
+}
+
+.mx-productos {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.mx-hola {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 10px;
+    background-color: black;
+    color: white;
+}
+
+table th{
+    background-color: white;
+}
+table tr{
+    background-color: white;
+}
+.mx-hola h1 {
+    color: white;
+}
+
+.mx-hola img {
+    width: 300px;
+    height: 300px;
+}
+
+.hola {
+    background-color: black;
+}
+
+span {
+    color: darkgoldenrod;
+}
+
+.bg-dark-menu {
+    background-color: black;
+}
+
+.bordes {
+    border-style: solid;
+    border-color: darkgoldenrod;
+}
+
+.mx-margen {
+    height: 100px;
+    background-color: black;
+}
+
+.card-pan {
+    width: 300px;
+    height: 300px;
+}
+
+.mx-producto {
+    padding-left: 20%;
+    padding-right: 20%;
+    background: linear-gradient(to bottom, #f2f2f2 0%, #f2f2f2 80%, black 20%, black 100%);
+    color: darkgoldenrod;
+    font-size: 20px;
+}
+
+.mx-producto-dark {
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: black;
+    color: darkgoldenrod;
+    font-size: 20px;
+}
+
+.texto-titulo{
+    -webkit-text-stroke: 2px white;
+}
+
+.margen-dereito{
+    margin-right: 20%;
+}
+
+/* colores */
+
+.colorblack {
+    background-color: black;
+}
+
+.colordarkgold{
+    background-color: darkgoldenrod;
+
+}
+
+.colorwhite2{
+    background-color: #f2f2f2;
+}
+.colorcreditos{
+    background-color: #999;
+}
+
+/* Letras */
+
+.letrabody{
+    font-family: 'EB Garamond', serif;
+    font-size: 16px;
+    color: black;
+    
+}
+.letratitulo{
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    color: black;
+    
+}
+
+
+
+/* folla de Guía d estilos */
+
+button{
+    margin: 10px 10px 10px 10px;
+}
+li{
+color: black;
+}
